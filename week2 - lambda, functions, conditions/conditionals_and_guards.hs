@@ -6,7 +6,7 @@ max22 a b c = if a > b then if a > c then a else c else if b > c then b else c
 
 
 -- Guard - different way of responding to conditions
--- -- The expression is specified in ter,s of a series of guards an dresults
+-- -- The expression is specified in terms of a series of guards and results
 -- -- There is a catch-all otherwise guard that can be used to catch all cases that have 
 -- -- not been explicitly specified
 max3 a b c
